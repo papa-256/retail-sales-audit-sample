@@ -1,0 +1,137 @@
+{
+  "source": "https://archive.ics.uci.edu/dataset/352/online+retail",
+  "source_zip_sha256": "f5385cbb54bbebf7196389109c6b0621faab0c304e3702548165e71c84aede8b",
+  "scope": "Public UCI sample; signed line amounts rounded to pence in Python before integer SQL aggregation",
+  "rows": 541909,
+  "eligible_rows": 539392,
+  "raw_line_amount_cents": 974774793,
+  "eligible_net_cents": 976987205,
+  "positive_sales_cents": 1066668454,
+  "negative_quantity_offsets_cents": -89681249,
+  "monthly": [
+    {
+      "month": "2010-12",
+      "rows": 42208,
+      "net_cents": 74895702
+    },
+    {
+      "month": "2011-01",
+      "rows": 35007,
+      "net_cents": 56000026
+    },
+    {
+      "month": "2011-02",
+      "rows": 27580,
+      "net_cents": 49806265
+    },
+    {
+      "month": "2011-03",
+      "rows": 36502,
+      "net_cents": 68326708
+    },
+    {
+      "month": "2011-04",
+      "rows": 29655,
+      "net_cents": 49320712
+    },
+    {
+      "month": "2011-05",
+      "rows": 36785,
+      "net_cents": 72333351
+    },
+    {
+      "month": "2011-06",
+      "rows": 36688,
+      "net_cents": 69112312
+    },
+    {
+      "month": "2011-07",
+      "rows": 39330,
+      "net_cents": 68130011
+    },
+    {
+      "month": "2011-08",
+      "rows": 35151,
+      "net_cents": 70480463
+    },
+    {
+      "month": "2011-09",
+      "rows": 50066,
+      "net_cents": 101968762
+    },
+    {
+      "month": "2011-10",
+      "rows": 60504,
+      "net_cents": 107070467
+    },
+    {
+      "month": "2011-11",
+      "rows": 84445,
+      "net_cents": 146175625
+    },
+    {
+      "month": "2011-12",
+      "rows": 25471,
+      "net_cents": 43366801
+    }
+  ],
+  "top_five_countries_by_net_cents": [
+    {
+      "country": "United Kingdom",
+      "rows": 492979,
+      "net_cents": 820993048
+    },
+    {
+      "country": "Netherlands",
+      "rows": 2367,
+      "net_cents": 28466154
+    },
+    {
+      "country": "EIRE",
+      "rows": 8192,
+      "net_cents": 26327682
+    },
+    {
+      "country": "Germany",
+      "rows": 9493,
+      "net_cents": 22169821
+    },
+    {
+      "country": "France",
+      "rows": 8556,
+      "net_cents": 19740390
+    }
+  ],
+  "top_five_stock_codes_by_net_cents": [
+    {
+      "stock_code": "DOT",
+      "rows": 707,
+      "net_cents": 20624548
+    },
+    {
+      "stock_code": "22423",
+      "rows": 2198,
+      "net_cents": 16476219
+    },
+    {
+      "stock_code": "47566",
+      "rows": 1726,
+      "net_cents": 9830298
+    },
+    {
+      "stock_code": "85123A",
+      "rows": 2307,
+      "net_cents": 9789450
+    },
+    {
+      "stock_code": "85099B",
+      "rows": 2156,
+      "net_cents": 9235603
+    }
+  ],
+  "checks": {
+    "source_unchanged": true,
+    "rows_and_amounts_match_independent_audit": true,
+    "monthly_matches_independent_audit": true
+  }
+}
